@@ -14,7 +14,7 @@ public class A001 {
 
         System.out.println("time : " + item[3]); //시간
         // time : time : [11/Jun/2012:22:12:32
-        String time = item[3].substring(1);
-        System.out.println("time : "+ time); //다움주 쪽지 시험
+        String time = item[3].substring(8);
+        System.out.println("time : "+ time);
     }
 }
